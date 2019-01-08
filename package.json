@@ -1,0 +1,22 @@
+{
+  "name": "Bounce-City",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "npx webpack --mode=development --config webpack.config.js & node Server.js",
+    "build": "npx webpack --mode=production --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "three": "^0.98.0",
+    "three-obj-mtl-loader": "^1.0.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
